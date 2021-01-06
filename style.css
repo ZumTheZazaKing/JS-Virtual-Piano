@@ -1,0 +1,44 @@
+body{
+    background-color: burlywood;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.whiteKey{
+
+    height: 350px;
+    width: 75px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid black;
+    margin-left: -20px;
+
+}
+
+.encounter{
+    margin: 0;
+}
+
+.whiteKey:active{
+
+    background-color: aquamarine;
+
+}
+
+.blackKey{
+
+    height: 210px;
+    width: 40px;
+    margin-left: -20px;
+    background-color: black;
+    cursor: pointer;
+    z-index: 1;
+
+}
+
+.blackKey:active{
+
+    background-color: crimson;
+
+}
